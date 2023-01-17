@@ -15,19 +15,19 @@
   type NumberArray = ;
   ```
 
-  - An array that contains numbers and/or strings.
+  - An array that contains numbers *and/or* strings.
 
   ```TS
   type MixedArray = ;
   ```
 
-  An array that contains numbers or an array that contains strings.
+  An array that contains numbers *or* an array that contains strings.
 
   ```TS
   type NumberOrStringArray = ;
   ```
 
-  - An array that contains exactly three numbers.
+  - An array that contains *exactly three* numbers.
 
   ```TS
   type NumberThing = ;
