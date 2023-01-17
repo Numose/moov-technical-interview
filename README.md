@@ -4,89 +4,95 @@
 
 <details>
   <summary>
-    **Question 1**
+    Question 1
   </summary>
 
-Complete the following types:
+  Complete the following types:
 
-- An array that contains numbers.
+  - An array that contains numbers.
 
-```TS
-type NumberArray = ;
-```
+  ```TS
+  type NumberArray = ;
+  ```
 
-- An array that contains numbers and/or strings.
+  - An array that contains numbers and/or strings.
 
-```TS
-type MixedArray = ;
-```
+  ```TS
+  type MixedArray = ;
+  ```
 
-An array that contains numbers or an array that contains strings.
+  An array that contains numbers or an array that contains strings.
 
-```TS
-type NumberOrStringArray = ;
-```
+  ```TS
+  type NumberOrStringArray = ;
+  ```
 
-- An array that contains exactly three numbers.
+  - An array that contains exactly three numbers.
 
-```TS
-type NumberThing = ;
-```
+  ```TS
+  type NumberThing = ;
+  ```
 </details>
 
 <details>
   <summary>
-    **Question 2**
+    Question 2
   </summary>
 
-Here are two interfaces to compare:
+  Here are two interfaces to compare:
 
-```TS
-interface PropsA {
-  readonly data?: DataType;
-}
-```
+  ```TS
+  interface PropsA {
+    readonly data?: DataType;
+  }
+  ```
 
-```TS
-interface PropsB {
-  readonly data: DataType | undefined;
-}
-```
+  ```TS
+  interface PropsB {
+    readonly data: DataType | undefined;
+  }
+  ```
 
-- What is the difference between `?` and `undefined` for the prop field `data`?
-  </details>
+  - What is the difference between `?` and `undefined` for the prop field `data`?
+</details>
 
 <details>
   <summary>
-    **Question 3**
+    Question 3
   </summary>
 
-Here is a utility function:
+  Here is a utility function:
 
-```TS
-const isObject = (value: unknown): value is object => typeof value === 'object';
-```
+  ```TS
+  const isObject = (value: unknown): value is object => typeof value === 'object';
+  ```
 
-* What is the type `unknown`? How does it differ from `any`?
+  * What is the type `unknown`? How does it differ from `any`?
 
-* What does `value is object` do?
+  * What does `value is object` do?
 
-* Can you spot any issues with out implementation?
+  * Can you spot any issues with out implementation?
 </details>
 
-### 4. Here is another utility function:
+<details>
+  <summary>
+    Question 4
+  </summary>
 
-```TS
-const pop = (value: number[]): [number, number[]] => {
-    const [first, ...rest] = value;
+  Here is another utility function:
 
-    return [first, rest];
-}
-```
+  ```TS
+  const pop = (value: number[]): [number, number[]] => {
+      const [first, ...rest] = value;
 
-* Explain what the function is doing.
+      return [first, rest];
+  }
+  ```
 
-* The TypeScript compiler shows _no static errors_ with this code, but it has a bug. What is the bug?
+  * Explain what the function is doing.
+
+  * The TypeScript compiler shows _no static errors_ with this code, but it has a bug. What is the bug?
+</details>
 
 ## React
 
