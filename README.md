@@ -96,44 +96,62 @@
 
 ## React
 
-1. A Junior engineer has submitted this code to you for review.
+<details>
+  <summary>
+    Question 1
+  </summary>
 
-```TSX
-type PropsDataType = {
-  readonly id: string;
-}
+  A Junior engineer has submitted this code to you for review.
 
-type CompDataType = {
-  readonly id: number;
-}
+  ```TSX
+  type PropsDataType = {
+    readonly id: string;
+  }
 
-interface ComponentProps {
-  readonly data: PropsDataType;
-}
+  type CompDataType = {
+    readonly id: number;
+  }
 
-export const Component = (props: ComponentProps) => {
-  const convertData = (propsData: PropsDataType): CompDataType => ({ id: Number.parseInt(propsData) });
+  interface ComponentProps {
+    readonly data: PropsDataType;
+  }
 
-  const [data, setData] = useState(convertData(props.data));
+  export const Component = (props: ComponentProps) => {
+    const convertData = (propsData: PropsDataType): CompDataType => ({ id: Number.parseInt(propsData) });
 
-  useEffect(() => {
-    setData(convertData);
-  }, [props.data, convertData]);
+    const [data, setData] = useState(convertData(props.data));
 
-  return (
-    <div>{data}</div>
-  );
-}
-```
+    useEffect(() => {
+      setData(convertData);
+    }, [props.data, convertData]);
 
-- Please list any issues you see with this code.
+    return (
+      <div>{data}</div>
+    );
+  }
+  ```
 
-2. React has some lesser-used hooks.
+  - Please list any issues you see with this code.
+</details>
 
-- When would you use `React.useCallback()`?
+<details>
+  <summary>
+    Question 2
+  </summary>
+
+  React has some lesser-used hooks.
+
+  - When would you use `React.useCallback()`?
+</details>
 
 ## System Design
 
-1. Moov is about to...move...into its shiny new Headquarters at 100 Mill, but the management company is behind schedule. They need to find a capable coder to write the software that manages the parking garage and they want you to do it.
+<details>
+  <summary>
+    Question 1
+  </summary>
+  
+  Moov is about to...move...into its shiny new Headquarters at 100 Mill, but the management company is behind schedule. They need to find a capable coder to write the software that manages the parking garage and they want you to do it.
 
-- Please design the back end needed to build this software.
+  - Please design the back end needed to build this software.
+</details>
