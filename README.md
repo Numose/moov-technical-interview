@@ -2,7 +2,12 @@
 
 ## TypeScript
 
-### 1. How would you type the following:
+<details>
+  <summary>
+    ### 1. Typing
+  </summary>
+
+How would you type the following:
 
 - An array that contains numbers.
 
@@ -27,6 +32,7 @@ type NumberOrStringArray = ;
 ```TS
 type NumberThing = ;
 ```
+</details>
 
 ### 2. Here are two interfaces to compare:
 
