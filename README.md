@@ -7,8 +7,7 @@
     Question 1
   </summary>
 
-
-How would you type the following:
+Complete the following types:
 
 - An array that contains numbers.
 
