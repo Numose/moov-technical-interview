@@ -25,19 +25,19 @@
   
   Given the following code:
   
-    ```JS
-  const [value1, ...rest1] = [1,2,3];
-  
-  const [value2, ...rest2] = [1];
-  
-  const [value3, ...rest3] = [];
-  ```
-  
-  - What is the value of `value1`?
-  
-  - What is the value of `rest2`?
-  
-  - What is the value of `value3`?
+```JS
+const [value1, ...rest1] = [1,2,3];
+
+const [value2, ...rest2] = [1];
+
+const [value3, ...rest3] = [];
+```
+
+- What is the value of `value1`?
+
+- What is the value of `rest2`?
+
+- What is the value of `value3`?
 </details>
 
 ## TypeScript
