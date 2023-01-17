@@ -71,7 +71,7 @@
 
   * What does `value is object` do?
 
-  * Can you spot any issues with out implementation?
+  * Please list any issues you see with this code.
 </details>
 
 <details>
