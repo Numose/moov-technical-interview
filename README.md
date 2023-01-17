@@ -20,7 +20,7 @@ type NumberOrStringArray = ; // an array that contains numbers or an array that 
 type NumberThing = ; // an array that contains exactly three numbers
 ```
 
-### 2. What is the difference between ? and undefined? Here are two examples to compare:
+### 2. Here are two interfaces to compare:
 
 ```TS
 interface PropsA {
@@ -34,17 +34,21 @@ interface PropsB {
 }
 ```
 
+What is the difference between `?` and `undefined` for the prop field `data`?
+
+>
+
 ### 3. Here is a utility function:
 
 ```TS
 const isObject = (value: unknown): value is object => typeof value === 'object';
 ```
 
-3A. What is the type `unknown`? How does it differ from `any`?
+What is the type `unknown`? How does it differ from `any`?
 
-3B: What does `value is object` do?
+What does `value is object` do?
 
-3C: Can you spot any issues with out implementation?
+Can you spot any issues with out implementation?
 
 ### 4. Here is another utility function:
 
@@ -56,9 +60,9 @@ const pop = (value: number[]): [number, number[]] => {
 }
 ```
 
-4A. Explain what the function is doing.
+Explain what the function is doing.
 
-4B. The TypeScript compiler shows _no static errors_ with this code, but it has a bug. What is the bug?
+The TypeScript compiler shows _no static errors_ with this code, but it has a bug. What is the bug?
 
 ## React
 
