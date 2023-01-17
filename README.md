@@ -36,7 +36,7 @@ interface PropsB {
 
 What is the difference between `?` and `undefined` for the prop field `data`?
 
->
+> ANSWER HERE
 
 ### 3. Here is a utility function:
 
