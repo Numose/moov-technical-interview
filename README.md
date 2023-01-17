@@ -4,13 +4,13 @@
 
 ### 1. How would you type the following:
 
-An array that contains numbers.
+- An array that contains numbers.
 
 ```TS
 type NumberArray = ;
 ```
 
-An array that contains numbers and/or strings.
+- An array that contains numbers and/or strings.
 
 ```TS
 type MixedArray = ;
