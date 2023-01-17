@@ -4,20 +4,28 @@
 
 ### 1. How would you type the following:
 
-```TS
-type NumberArray = ; // an array that contains numbers
-```
+An array that contains numbers.
 
 ```TS
-type MixedArray = ; // an array that contains numbers and/or strings
+type NumberArray = ;
 ```
 
-```TS
-type NumberOrStringArray = ; // an array that contains numbers or an array that contains strings
-```
+An array that contains numbers and/or strings.
 
 ```TS
-type NumberThing = ; // an array that contains exactly three numbers
+type MixedArray = ;
+```
+
+An array that contains numbers or an array that contains strings.
+
+```TS
+type NumberOrStringArray = ;
+```
+
+An array that contains exactly three numbers.
+
+```TS
+type NumberThing = ;
 ```
 
 ### 2. Here are two interfaces to compare:
@@ -35,8 +43,6 @@ interface PropsB {
 ```
 
 What is the difference between `?` and `undefined` for the prop field `data`?
-
-> ANSWER HERE
 
 ### 3. Here is a utility function:
 
