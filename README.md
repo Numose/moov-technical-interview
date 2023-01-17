@@ -162,7 +162,7 @@ const [value3, ...rest3] = [];
     const [data, setData] = useState(convertData(props.data));
 
     useEffect(() => {
-      setData(convertData);
+      setData(convertData(props.data));
     }, [props.data, convertData]);
 
     return (
