@@ -4,7 +4,7 @@
 
 <details>
   <summary>
-    Question 1
+    **Question 1**
   </summary>
 
 Complete the following types:
@@ -34,7 +34,12 @@ type NumberThing = ;
 ```
 </details>
 
-### 2. Here are two interfaces to compare:
+<details>
+  <summary>
+    **Question 2**
+  </summary>
+
+Here are two interfaces to compare:
 
 ```TS
 interface PropsA {
@@ -49,8 +54,14 @@ interface PropsB {
 ```
 
 - What is the difference between `?` and `undefined` for the prop field `data`?
+  </details>
 
-### 3. Here is a utility function:
+<details>
+  <summary>
+    **Question 3**
+  </summary>
+
+Here is a utility function:
 
 ```TS
 const isObject = (value: unknown): value is object => typeof value === 'object';
@@ -61,6 +72,7 @@ const isObject = (value: unknown): value is object => typeof value === 'object';
 * What does `value is object` do?
 
 * Can you spot any issues with out implementation?
+</details>
 
 ### 4. Here is another utility function:
 
