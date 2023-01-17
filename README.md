@@ -22,7 +22,7 @@ An array that contains numbers or an array that contains strings.
 type NumberOrStringArray = ;
 ```
 
-An array that contains exactly three numbers.
+- An array that contains exactly three numbers.
 
 ```TS
 type NumberThing = ;
@@ -42,7 +42,7 @@ interface PropsB {
 }
 ```
 
-What is the difference between `?` and `undefined` for the prop field `data`?
+- What is the difference between `?` and `undefined` for the prop field `data`?
 
 ### 3. Here is a utility function:
 
@@ -50,11 +50,11 @@ What is the difference between `?` and `undefined` for the prop field `data`?
 const isObject = (value: unknown): value is object => typeof value === 'object';
 ```
 
-What is the type `unknown`? How does it differ from `any`?
+* What is the type `unknown`? How does it differ from `any`?
 
-What does `value is object` do?
+* What does `value is object` do?
 
-Can you spot any issues with out implementation?
+* Can you spot any issues with out implementation?
 
 ### 4. Here is another utility function:
 
@@ -66,13 +66,13 @@ const pop = (value: number[]): [number, number[]] => {
 }
 ```
 
-Explain what the function is doing.
+* Explain what the function is doing.
 
-The TypeScript compiler shows _no static errors_ with this code, but it has a bug. What is the bug?
+* The TypeScript compiler shows _no static errors_ with this code, but it has a bug. What is the bug?
 
 ## React
 
-1. A Junior engineer has submitted this code to you for review. Please list any issues you see.
+1. A Junior engineer has submitted this code to you for review.
 
 ```TSX
 type PropsDataType = {
@@ -102,4 +102,14 @@ export const Component = (props: ComponentProps) => {
 }
 ```
 
-2. When would you use `React.useCallback()`?
+- Please list any issues you see with this code.
+
+2. React has some lesser-used hooks.
+
+- When would you use `React.useCallback()`?
+
+## System Design
+
+1. Moov is about to...move...into its shiny new Headquarters at 100 Mill, but the management company is behind schedule. They need to find a capable coder to write the software that manages the parking garage and they want you to do it.
+
+- Please design the back end needed to build this software.
