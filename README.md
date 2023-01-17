@@ -1,6 +1,44 @@
 # Moov Technical Interview Questions
 
+## JavaScript
 
+<details>
+  <summary>
+    Question 1
+  </summary>
+  
+  Given the following code:
+  
+  ```JS
+  const values = [1,2,3];
+  
+  values.push("4");
+  ```
+  
+  - Is the `values.push` call permitted?
+</details>
+
+<details>
+  <summary>
+    Question 2
+  </summary>
+  
+  Given the following code:
+  
+    ```JS
+  const [value1, ...rest1] = [1,2,3];
+  
+  const [value2, ...rest2] = [1];
+  
+  const [value3, ...rest3] = [];
+  ```
+  
+  - What is the value of `value1`?
+  
+  - What is the value of `rest2`?
+  
+  - What is the value of `value3`?
+</details>
 
 ## TypeScript
 
