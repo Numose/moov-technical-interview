@@ -40,12 +40,6 @@
   - What is the value of `value3`?
 </details>
 
-<!-- <details>
-  <summary>
-    Question 
-  </summary>
-</details> -->
-
 ## TypeScript
 
 <details>
