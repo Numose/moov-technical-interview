@@ -7,6 +7,7 @@
     Question 1
   </summary>
 
+
 How would you type the following:
 
 - An array that contains numbers.
