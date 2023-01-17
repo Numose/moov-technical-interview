@@ -4,7 +4,7 @@
 
 <details>
   <summary>
-    ### 1. Typing
+    Question 1
   </summary>
 
 How would you type the following:
