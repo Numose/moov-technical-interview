@@ -104,7 +104,9 @@ const [value3, ...rest3] = [];
   Here is a utility function:
 
   ```TS
-  const isObject = (value: unknown): value is object => typeof value === 'object';
+  const isObject = (value: unknown): value is object => {
+     return typeof value === 'object';
+  };
   ```
 
   * What is the type `unknown`? How does it differ from `any`?
@@ -157,7 +159,9 @@ const [value3, ...rest3] = [];
   }
 
   export const Component = (props: ComponentProps) => {
-    const convertData = (propsData: PropsDataType): CompDataType => ({ id: Number.parseInt(propsData) });
+    const convertData = (propsData: PropsDataType): CompDataType => {
+      return { id: Number.parseInt(propsData) };
+    };
 
     const [data, setData] = useState(convertData(props.data));
 
